@@ -2,7 +2,7 @@
 In this project datas of different meals are shared.
 It contains the datas such as meal id,cusinie and category of the cuisine are listed
 
-CRUD_operations_in_MongoDB_Python
+CRUD operations in MongoDB
 
 Meals info Database contains collection of foods with different countries. Python is a programming language linked with MongoDB which helps to access and retrieve databases.
 
