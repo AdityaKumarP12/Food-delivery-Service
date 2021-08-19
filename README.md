@@ -2,40 +2,45 @@
 In this project datas of different meals are shared.
 It contains the datas such as meal id,cusinie and category of the cuisine are listed
 
-# Operations performed are
+#CRUD_operations_in_MongoDB_Python
 
-1.findone
+Meals info Database contains collection of foods with different countries. Python is a programming language linked with MongoDB which helps to access and retrieve databases.
 
-2.findmany
+Use Required Modules
 
-3.limit
+Pymongo is the standard MongoDB library and MongoClient is used to establish a connection to a MongoDB objects.
 
-4.sort
+    import warnings
+    from pymongo import MongoClient
+    warnings.filterwarnings('ignore')
+Client Connection with MongoDB
 
-5.updateone
+    MongoClient(localhost,PortNumber)
 
-6.updatemany
+List of MongoDB Commands
 
-7.deleteone
+* find_one()
+* find()
+* limit()
+* insert_one()
+* insert_many()
+* update_one()
+* update_many()
+* delete_one()
+* delete_many()
+* count()
+* sort()
+* drop()
 
-8.deletemany
+Use MySQL workbench
 
-9.updateone
+Select Local instance MySQL80. Connect to the database to establish the connection. Create a table and insert the data using below SQL commands.
 
-10.updatemany 
+List of MySQL Commands
 
-These operations are performed using mongodb,mysql.
-
-Exploring various commands in MySQL
-
-SELECT
-
-UPDATE
-
-DELETE
-
-INSERT
-
-DROP
-
-Clauses: 1. WHERE 2. LIMIT 3. ORDER BY
+* SELECT
+* LIMIT
+* DELETE
+* INSERT
+* SORT - ORDER BY (ASC OR DESC)
+* DROP
