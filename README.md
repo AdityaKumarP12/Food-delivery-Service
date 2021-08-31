@@ -1,6 +1,6 @@
 # Food-delivery-service
 In this project data of different meals are shared.
-It contains the data such as meal id,cusinie and category of the cuisine are listed
+It contains the data such as meal id,cuisine and category of the cuisine are listed
 
 CRUD operations in MongoDB
 
